@@ -1,6 +1,6 @@
 import React from "react";
-import logo from "./logo.svg";
 import "./App.css";
+import Forecast from "./components/Forecast/forecast";
 
 function App() {
   return (
@@ -8,7 +8,9 @@ function App() {
       <header className="App-header">
         <h1>React Weather App</h1>
       </header>
-      <main></main>
+      <main>
+        <Forecast />
+      </main>
       <footer>App created by Arek Chatmajian</footer>
     </div>
   );
